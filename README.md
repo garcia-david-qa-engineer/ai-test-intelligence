@@ -125,7 +125,7 @@ All outputs will be generated in `src/output/`.
 ## 👤 Author
 
 **David Garcia**  
-AI QA Lead / Senior QA Automation Engineer  
+AI-Augmented Software Engineer / Senior QA Automation Engineer  
 Specialized in **Python, CI/CD, and AI-driven QA workflows**
 
 📧 mail.garcia.david@gmail.com  
@@ -135,3 +135,4 @@ Specialized in **Python, CI/CD, and AI-driven QA workflows**
 
 MIT License © 2025 David Garcia  
 _For educational and demonstration purposes only._
+
