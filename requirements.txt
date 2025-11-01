@@ -1,0 +1,5 @@
+python-dotenv
+openai
+langchain==0.3.7
+langchain-openai==0.2.6
+tiktoken

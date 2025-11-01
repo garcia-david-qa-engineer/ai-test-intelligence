@@ -1,0 +1,32 @@
+{
+  "risks": [
+    {
+      "category": "security",
+      "description": "Brute-force login attempts may allow an attacker to guess the password.",
+      "probability": "High",
+      "severity": "High",
+      "qa_focus": "Validate account lockout after 3 failed attempts and confirm no further login is allowed during lock period."
+    },
+    {
+      "category": "security",
+      "description": "MFA bypass if the SMS one-time code can be reused or does not expire properly.",
+      "probability": "Medium",
+      "severity": "High",
+      "qa_focus": "Verify that an expired code is always rejected and that a new login requires a fresh code."
+    },
+    {
+      "category": "stability",
+      "description": "SMS delivery failure could block legitimate users from logging in.",
+      "probability": "Medium",
+      "severity": "Medium",
+      "qa_focus": "Test resend flow and ensure only one resend is allowed. Verify no infinite resend."
+    },
+    {
+      "category": "compliance",
+      "description": "Login attempts may not be correctly logged for audit/security traceability.",
+      "probability": "Low",
+      "severity": "High",
+      "qa_focus": "Ensure every attempt (success/failure/lockout) is logged with timestamp and account reference."
+    }
+  ]
+}
